@@ -6,7 +6,7 @@ rs_project/
 ├── decoder/ # Contains decoder.c
 ├── libcorrect/ # Local copy of libcorrect (used as a subdirectory)
 ├── CMakeLists.txt # Build configuration
-└── README.md #
+
 ```
 
 In rs_project folder :-
