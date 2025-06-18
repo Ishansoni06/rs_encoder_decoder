@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/encoder.dir/encoder/encoder.c.o -o encoder  -Wl,-rpath,/home/ishan/rs_project/build/libcorrect/lib libcorrect/lib/libcorrect.so 

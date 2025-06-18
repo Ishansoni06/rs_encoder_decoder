@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/decoder.dir/decoder/decoder.c.o -o decoder  -Wl,-rpath,/home/ishan/rs_project/build/libcorrect/lib libcorrect/lib/libcorrect.so 

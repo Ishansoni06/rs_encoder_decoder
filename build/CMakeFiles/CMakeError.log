@@ -1,0 +1,18 @@
+Determining if the function dotprod exists in the FEC failed with the following output:
+Change Dir: /home/ishan/rs_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb5e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb5e8.dir/build.make CMakeFiles/cmTC_bb5e8.dir/build
+gmake[1]: Entering directory '/home/ishan/rs_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb5e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -std=c99 -Wall -Wpedantic -O2 -DCHECK_FUNCTION_EXISTS=dotprod -o CMakeFiles/cmTC_bb5e8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb5e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb5e8.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -std=c99 -Wall -Wpedantic -O2 -DCHECK_FUNCTION_EXISTS=dotprod -rdynamic CMakeFiles/cmTC_bb5e8.dir/CheckFunctionExists.c.o -o cmTC_bb5e8  -lFEC 
+/usr/bin/ld: cannot find -lFEC: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bb5e8.dir/build.make:99: cmTC_bb5e8] Error 1
+gmake[1]: Leaving directory '/home/ishan/rs_project/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_bb5e8/fast] Error 2
+
+
+
